@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Elliot Compiegne – Accueil</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="page-accueil">
+  <header class="site-header">
+    <h1 class="artist-name">Elliot Compiegne</h1>
+    <nav class="main-nav">
+      <a href="index.html" class="is-active">Accueil</a>
+      <span class="sep">|</span>
+      <a href="travaux.html">Travaux</a>
+      <span class="sep">|</span>
+      <a href="bio.html">Bio & textes</a>
+      <span class="sep">|</span>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <!--
+      DIAPORAMA : 
+      - Remplace les <img> par tes fichiers (max 10–15 images).
+      - Hauteur/largeur du "bloc" se gèrent dans CSS (.home-slider).
+      - Chaque image peut pointer vers un travail spécifique via l'ancre (#id)
+        pour ouvrir directement son détail dans la page Travaux.
+    -->
+    <section class="home-slider" aria-label="Aperçu de travaux">
+      <div class="slides">
+        <a href="travaux.html#1" class="slide">
+          <img src="edition/edition.jpg" alt="1" />
+        </a>
+        <a href="travaux.html#2" class="slide">
+          <img src="vues-densemble/noir-et-blanc-vue-densembke.jpg" alt="2" />
+        </a>
+        <a href="travaux.html#3" class="slide">
+          <img src="dessin-gravure/dessin-1.JPG" alt="3" />
+        </a>
+        <a href="travaux.html#4" class="slide">
+          <img src="ludus/ludus-ensemble.jpg" alt="4" />
+        </a>
+        <a href="travaux.html#5" class="slide">
+          <img src="monotypes/chemins-detail.jpg" alt="5" />
+        </a>
+        <a href="travaux.html#6" class="slide">
+          <img src="repertoire-formel-n1/r1-dessin-6.jpg" alt="6" />
+        </a>
+        <a href="travaux.html#7" class="slide">
+          <img src="araignees/araignee-1.jpg" alt="7" />
+        </a>
+        <a href="travaux.html#8" class="slide">
+          <img src="hypotheses/03.jpg" alt="8" />
+        </a>
+        <a href="travaux.html#9" class="slide">
+          <img src="monotypes/couleurs.jpg" alt="9" />
+        </a>
+        <a href="travaux.html#10" class="slide">
+          <img src="ludus/ludus-estampe-2.jpg" alt="10" />
+        </a>
+        <a href="travaux.html#11" class="slide">
+          <img src="hypotheses/09.jpg" alt="11" />
+        </a>
+        <a href="travaux.html#12" class="slide">
+          <img src="hypotheses/06.jpg" alt="12" />
+        </a>
+        <a href="travaux.html#13" class="slide">
+          <img src="monotypes/eccorce-detail.jpg" alt="13" />
+        </a>
+        <!-- Ajoute/retire des <a class="slide"> au besoin -->
+      </div>
+      <button class="nav prev" aria-label="Image précédente">‹</button>
+      <button class="nav next" aria-label="Image suivante">›</button>
+    </section>
+
+    <!-- Petit espace pour que le footer ne soit PAS visible sans scroller -->
+    <div class="push"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <small>Copyright © <span data-year></span> www.elliotcompiegne.com – Tous droits réservés.</small>
+      <a class="mail" href="mailto:ton.adresse@mail.com"></a>
+      <a class="instagram" href="https://www.instagram.com/elliotcompiegne/"><img src="icones/insta3.jpg" alt="logo-instagram"></a> 
+        <!-- Icône Instagram en SVG (modifiable) -->
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+          <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5a5.5 5.5 0 1 1 0 11.001 5.5 5.5 0 0 1 0-11zM18 6.5a1 1 0 1 1 0 2.001 1 1 0 0 1 0-2z"/>
+        </svg>
+      
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
